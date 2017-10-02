@@ -48,6 +48,26 @@ namespace Week2Day1
 
             Console.WriteLine(numbers[2] + " " + numbers[3]);
 
+            string [] daysOfWeek = new string [7];
+            daysOfWeek[0] = "Monday";
+            daysOfWeek[1] = "Tuesday";
+            daysOfWeek[2] = "Wednesday";
+            daysOfWeek[3] = "Thursday";
+            daysOfWeek[4] = "Friday";
+            daysOfWeek[5] = "Saturday";
+            daysOfWeek[6] = "Sunday";
+
+            int[] studentAges = new int[5];
+            studentAges[0] = 19;
+            studentAges[1] = 17;
+            studentAges[2] = 18;
+            studentAges[3] = 25;
+            studentAges[4] = 21;
+
+
+
+
+
 
         }
     }
