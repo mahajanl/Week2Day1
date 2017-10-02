@@ -40,6 +40,13 @@ namespace Week2Day1
             //when you don't know the elements up front
             int[] numbers = new int[4];
             numbers[0] = 43;
+            numbers[1] = 12;
+            Console.WriteLine("Please enter a number");
+            numbers[2] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Please enter a number");
+            numbers[3] = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(numbers[2] + " " + numbers[3]);
 
 
         }
