@@ -72,6 +72,7 @@ namespace Week2Day1
 
             string[] streetNames = { "Grafton", "Main", "First", "hi", "you", "in", "anger", "don't", "look" };
             Console.WriteLine("This is the last index " + (streetNames.Length - 1));
+            Console.WriteLine(streetNames[streetNames.Length - 1]);
 
             //int index = streetNames.Length;
             //int secondToLast = index - 2;
