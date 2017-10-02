@@ -36,7 +36,11 @@ namespace Week2Day1
 
             char[] peerNames = { 's', 'r', 't', 'd' };
             Console.WriteLine(peerNames[3]);
-           
+
+            //when you don't know the elements up front
+            int[] numbers = new int[4];
+            numbers[0] = 43;
+
 
         }
     }
