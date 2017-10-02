@@ -24,8 +24,7 @@ namespace Week2Day1
             Console.WriteLine(studentNames[1]);
 
             string[] vacaSpots = { "Ireland", "Colorado", "Italy", "San Fransisco", "Sedona", "Cincinnati", "Cape Cod", "Frederick", "New Mexico", "New York" };
-            Console.WriteLine(vacaSpots[1]);
-                Console.WriteLine(vacaSpots[4]); 
+            Console.WriteLine(vacaSpots[0] + " " + vacaSpots[9]);
 
             int[] kidsIKnow = { 2, 11, 3 };
             Console.WriteLine(kidsIKnow[0]);
@@ -33,8 +32,10 @@ namespace Week2Day1
             Console.WriteLine(kidsIKnow[2]);
 
             double[] gpas = { 3.1, 3.56, 3.21, 3.9, 3.95, 2.9, 3.33, 2.98};
+            Console.WriteLine(gpas[2]);
 
-            string[] peerNames = { "s", "r", "t", "d" };
+            char[] peerNames = { 's', 'r', 't', 'd' };
+            Console.WriteLine(peerNames[3]);
            
 
         }
