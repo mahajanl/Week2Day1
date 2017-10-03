@@ -70,16 +70,20 @@ namespace Week2Day1
             //char[] myLastName = new char[7];
             //Console.WriteLine(myLastName.Length);
 
-            string[] streetNames = { "Grafton", "Main", "First", "hi", "you", "in", "anger", "don't", "look" };
-            Console.WriteLine("This is the last index " + (streetNames.Length - 1));
-            Console.WriteLine(streetNames[streetNames.Length - 1]);
+            //string[] streetNames = { "Grafton", "Main", "First", "hi", "you", "in", "anger", "don't", "look" };
+            //Console.WriteLine("This is the last index " + (streetNames.Length - 1));
+            //Console.WriteLine(streetNames[streetNames.Length - 1]);
 
             //int index = streetNames.Length;
             //int secondToLast = index - 2;
 
             //Console.WriteLine(streetNames[secondToLast]);
 
+            Console.WriteLine("Please enter the size of your array.");
+            int arraySize = int.Parse(Console.ReadLine());
+            int[] newArray = new int[arraySize];
 
+            Console.WriteLine("The array is of length " + newArray.Length);
 
 
 
