@@ -79,13 +79,19 @@ namespace Week2Day1
 
             //Console.WriteLine(streetNames[secondToLast]);
 
-            Console.WriteLine("Please enter the size of your array.");
-            int arraySize = int.Parse(Console.ReadLine());
-            int[] newArray = new int[arraySize];
+            //Console.WriteLine("Please enter the size of your array.");
+            //int arraySize = int.Parse(Console.ReadLine());
+            //int[] newArray = new int[arraySize];
 
-            Console.WriteLine("The array is of length " + newArray.Length);
+            //Console.WriteLine("The array is of length " + newArray.Length);
 
+            string[] birthMonth = { "Feb", "Jan", "May", "Oct", "Jan" };
+            Console.WriteLine(Array.IndexOf(birthMonth, "May"));
 
+            int[] numbers = { 2, 5, 7, 3, 5, 3, 2, 9 };
+            Console.WriteLine(Array.LastIndexOf(numbers, 4));
+
+            string[] someNames = { "Sally", "Timmy", "Tommy", "Henry", "Susy", "Charles" };
 
         }
     }
